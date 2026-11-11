@@ -43,8 +43,8 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(name: "NBase",
-                      url: "\(release)/3.0.68/NBase.zip",
-                      checksum: "15fa216c4ea89dba89356c31a5aeff1b50b3b1a2161407a82f8e29759707c8ea"),
+                      url: "\(release)/3.0.69-beta1/NBase.zip",
+                      checksum: "6f6c8b6c62091101b71e587d4ce593b0d5b1ac2da9c9d3d6703d5e846b0598b7"),
         .binaryTarget(name: "AdapterProviderGoogle",
                       url: "\(release)/3.0.58/AdapterProviderGoogle.zip",
                       checksum: "67953bd8d8281ff71a6b017a0968d8d5e03f6e11f39ecf269f59fe465e3c3edf"),
