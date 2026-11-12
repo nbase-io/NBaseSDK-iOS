@@ -70,8 +70,8 @@ let package = Package(
                       url: "\(release)/3.0.58/AdapterProviderX.zip",
                       checksum: "990e4903b834a3ea777db3b386792ef7d31328346271ddb2d4ef4b40a8f23fa1"),
         .binaryTarget(name: "AdapterAdStage",
-                      url: "\(release)/3.0.13/AdapterAdStage.zip",
-                      checksum: "78a75eaa939d6cdc90f2865ba765b884002598b9c1990c5f8b3af8282878e13c"),
+                      url: "\(release)/3.0.14/AdapterAdStage.zip",
+                      checksum: "2bc78c650c84dde742334dac7c3b0ae5f1e490f5f9f29f57662a0ca33612ef9b"),
 
         // A binary target cannot declare dependencies, so these empty targets carry them.
         .target(name: "NBaseDependencies", dependencies: [
